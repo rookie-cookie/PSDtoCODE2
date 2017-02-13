@@ -1,0 +1,112 @@
+/*** media queries ****/
+
+/** home section **/
+@media only screen and (max-width: 768px) {
+  #typing{
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  #typing{
+    font-size: 35px;
+    border: none;
+  }
+}
+
+/** overview section **/
+@media only screen and (max-width: 1224px) {
+  .section-content{
+    padding: 70px 70px;
+  }
+}
+
+
+/** services section **/
+@media only screen and (max-width: 1224px) {
+  .service-wrap{
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 980px){
+  #services .col-md-4{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .servicebox:hover{
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+}
+
+
+/** portfolio **/
+@media only screen and (max-width: 770px){
+  .portfolio-contents img{
+    width: 95%;
+    margin: 0 2.5%;
+  }
+
+  .portfolio-overlay{
+    width: 95%;
+    margin: 0 2.5%;
+  }
+}
+
+/** about **/
+@media only screen and (max-width: 990px){
+  .about-box{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .about-hire{
+    /*border: none;*/
+    width: 80%;
+    margin: 0 10%;
+  }
+  /*.about-hire:hover{
+    border: none;
+  }*/
+
+  .about-box .col-md-10,
+  .about-box .col-sm-10{
+    width: 80%;
+    margin: 0 10%;
+  }
+  .about-box .col-md-4,
+  .about-box .col-sm-4,
+  .about-box .col-md-10,
+  .about-box .col-sm-10{
+    padding: 20px 0;
+  }
+
+  .about-hire .about-text{
+
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .about-clients{
+    margin-top: 40px;
+  }
+}
+
+/** footer **/
+@media only screen and (max-width: 990px){
+  footer .f-copy,
+  footer .f-back{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer .f-back{
+    display: none;
+  }
+}
