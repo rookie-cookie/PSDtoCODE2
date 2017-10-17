@@ -1,3 +1,3 @@
 # PSDtoCODE2
 
-For practice only - not my own design. 
+Converted a PSD design into a responsive html code for practice and learning purposes. Credits to the original web designer of this template. 
